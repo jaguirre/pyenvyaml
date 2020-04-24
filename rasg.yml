@@ -1,0 +1,42 @@
+name: rasg
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - astropy
+  - astropy-healpix
+  - coverage
+  - flake8
+  - h5py
+  - ipython
+  - jplephem
+  - jupyter
+  - mpi4py
+  - numpy
+  - psutil
+  - pypandoc
+  - pytest
+  - pytest-cov
+  - pytest-profiling
+  - python-casacore
+  - pyyaml
+  - scipy
+  - setuptools_scm
+  - spiceypy
+  - sphinx
+  - twine
+  - pip
+  - pip:
+      - black
+      - flake8-builtins
+      - flake8-comprehensions
+      - flake8-docstrings
+      - flake8-pytest
+      - flake8-rst-docstrings
+      - pep8-naming
+      - pre-commit
+      - pytest-cases
+      - toml
+
+
+
